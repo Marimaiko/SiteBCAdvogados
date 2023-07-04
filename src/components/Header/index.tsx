@@ -7,8 +7,10 @@ export function Header() {
         {/* <img/> */}
         <nav className={styles.navLinks}>
           <a>Home</a>
-          <a>About</a>
-          <a>Jobs</a>
+          <a>Sobre nós</a>
+          <a>Áreas de atuação</a>
+          <a>Blog</a>
+          <a>Contato</a>
         </nav>
       </div>
     // </header>
