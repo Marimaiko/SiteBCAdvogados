@@ -1,4 +1,28 @@
-.navLinks {
+.headerContainer {
+  background-color: darkgreen;
+  height: 10rem;
   display: flex;
-  
+  align-items: center;
 }
+
+.headerContent {
+  height: 5rem;
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+  .navLinks {
+    color: orange;
+    margin-left: 5rem;
+    height: 5rem;
+    a {
+      display: inline-block;
+      position: relative;
+      padding: 0 0.5rem;
+      height: 5rem;
+      line-height: 5rem;
+    }
+  }
+
+
