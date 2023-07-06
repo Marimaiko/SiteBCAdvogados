@@ -1,7 +1,10 @@
+import { Line } from '../Line'
 import styles from './styles.module.scss'
 
 export function Header() {
   return (
+    <>
+      <Line/>
       <header className={styles.headerContainer}>
         <div className={styles.headerContent}>
           <img src='vercel.svg' alt='logo'/>
@@ -14,5 +17,6 @@ export function Header() {
           </nav>
         </div>
       </header>
+    </>
   )
 }
